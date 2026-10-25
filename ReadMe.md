@@ -4,6 +4,9 @@ A scalar reverse-mode autograd engine written in pure Python, and the neural
 networks built on top of it — no PyTorch, no TensorFlow, no NumPy in the
 forward or backward pass.
 
+> #### Also See:
+> Vectorized autograd Engine from scratch repo: [vgrad](https://github.com/2coolcoder/vgrad) 
+
 Every number in a network is a `Value`: a single Python float that remembers
 which operation produced it and which operands it came from. Composing them
 builds a computation graph dynamically, and one reverse pass over that graph
